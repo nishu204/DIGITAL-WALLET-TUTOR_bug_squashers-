@@ -1,0 +1,187 @@
+h3{
+  color: black;
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin-inline-start: 15px;
+  margin-block-start: 0;
+  margin-left: 80px;
+}
+
+p {
+  font-size: 25px;
+}
+
+hr {
+  margin-top: 0;
+  margin-bottom: 0;
+  border-top: 1px;
+}
+
+img {
+  width: auto;
+}
+
+.logo {
+  position: relative;
+  top: 30px;
+
+}
+
+.plogo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+
+.bhiml {
+  background-color: white;
+
+}
+
+
+ul {
+  margin-block-end: 0;
+  margin-inline-start: 5px;
+  padding: 20px;
+  font-family: "Ubuntu";
+  font-size: 1.5rem;
+  margin-left: 80px;
+
+}
+
+li {
+  padding: 20px;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #0B0C10;
+  color: #393E46;
+}
+
+.white-section {
+  background-color: #393E46;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+
+
+/* Title Section */
+
+#title {
+  background-color: #343434;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 60%;
+  position: absolute;
+  right: 5%;
+}
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+
+#gpay {
+  background-color: #52616B;
+
+  margin: 0;
+  padding: 0;
+}
+
+#PhonePe {
+  background-color: #52616B;
+  margin-left: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+#Paytm {
+  background-color: #C9D6DF;
+
+  margin: 0;
+  padding: 0;
+}
+
+#BHIM {
+  background-color: #C9D6DF;
+
+  margin: 0;
+  padding: 0;
+
+}
+
+
+
+
+
+
+#gpaymr{
+  display: none;
+}
+
+@media screen and (max-width:1024px) {
+   #gpaymr {
+     display: block;
+   }
+   #gpaycr {
+     display: none;
+   }
+}
