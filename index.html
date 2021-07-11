@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html>
 
 <head>
@@ -17,6 +17,12 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,600;1,600&family=Roboto+Condensed&display=swap" rel="stylesheet">
 
+  <!--CSS Animation-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+
+
+
   <!-- CSS Stylesheets -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
@@ -28,6 +34,11 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="javascript/javascript.js"></script>
+
+
+
+
 </head>
 
 <body>
@@ -50,16 +61,19 @@
 
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="">GooglePay</a>
+              <a class="nav-link" href="#gpay">GooglePay</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">PhonePe</a>
+              <a class="nav-link" href="#PhonePe">PhonePe</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Paytm</a>
+              <a class="nav-link" href="#Paytm">Paytm</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">BHIM</a>
+              <a class="nav-link" href="#BHIM">BHIM</a>
+            </li>
+            <li class="nav-link">
+              <a href="Articles/art.html">Articles</a>
             </li>
           </ul>
 
@@ -75,15 +89,14 @@
           <h1 class="big-heading">Learn to use Digital Wallet Applications.</h1>
           <p>
             This is website for the people who struggle while using digital wallet applications.
-            We are providing you short tutorials on our websites. ffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+            We are providing you short tutorials on our websites. Click on the transaction type
+            you want to do. You will get step by step description and link to the video.
+
           </p>
         </div>
 
         <div class="col-lg-6">
-          <img class="title-image" src="images/phone.png" alt="phoneimage">
+          <img class="title-image" src="images/ss.jpg" alt="ss">
         </div>
 
       </div>
@@ -98,37 +111,39 @@
     <div class="row">
 
 
-    <div class="col-lg-6">
-    <h3>PhonePe Tutorials</h3>
-    <ul>
-      <li>Money transfer using Mobile Number</li>
-      <li>Money transfer using UPI ID</li>
-      <li>Money transfer using Bank Account Details</li>
-      <li>Mobile Recharge</li>
-      <li>Electricity Bill Payment</li>
-      <li>DTH Recharge</li>
-    </ul>
-    </div>
-    <div class="col-lg-6" class="pp"><img class="plogo" src="images/phonepelogo.png" alt="phonepelogo"></div>
+      <div class="col-lg-6">
+        <h3 style="color: white">PhonePe Tutorials</h3>
+        <ul>
+          <li><a style="color: white;"href="PhonePe/mobile.html">Money transfer using Mobile Number</a></li>
+          <li><a style="color: white;" href="PhonePe/upiid.html">Money transfer using UPI ID</a></li>
+          <li><a style="color: white;"href="PhonePe/bank.html">Money transfer using Bank Account Details</a></li>
+          <li><a style="color: white;" href="PhonePe/mobileR.html">Mobile Recharge</a></li>
+          <li><a style="color: white;"href="PhonePe/ele.html">Electricity Bill Payment</a></li>
+          <li><a style="color: white;"href="PhonePe/dth.html">DTH Recharge</a></li>
+        </ul>
+      </div>
+      <div class="animate__animated animate__fadeInRightBig col-lg-6 bhiml pp"><img class="plogo logo" src="images/phonepelogo.png" alt="phonepelogo"></div>
     </div>
   </section>
   <hr>
   <section id="BHIM">
     <div class="row">
 
-      <div class="col-lg-6">
-        <img class="logo" src="images/bhimlogo.png" alt="bhimlogo">
-      </div>
+        <div class="col-lg-6">
+          <img class="logo" src="images/bhimlogo.png" alt="bhimlogo">
+        </div>
+
+
 
       <div class="col-lg-6">
-        <h3>BHIM Tutorials</h3>
+        <h3 style="color: black">BHIM Tutorials</h3>
         <ul>
-          <li>Money transfer using Mobile Number</li>
-          <li>Money transfer using UPI ID</li>
-          <li>Money transfer using Bank Account Details</li>
-          <li>Mobile Recharge</li>
-          <li>Electricity Bill Payment</li>
-          <li>DTH Recharge</li>
+          <li style="color: black;"><a style="color: black;"href="BHIM/qrcode.html">Money transfer using QR code</a></li>
+          <li style="color: black;"><a style="color: black;"href="BHIM/upiid.html">Money transfer using UPI ID</a></li>
+          <li style="color: black;"><a style="color: black;"href="BHIM/bank.html">Money transfer using Bank Account Details</a></li>
+          <li style="color: black;"><a style="color: black;"href="BHIM/recharge.html">Mobile Recharge</a></li>
+          <li style="color: black;"><a style="color: black;"href="BHIM/ebill.html">Electricity Bill Payment</a></li>
+          <li style="color: black;"><a style="color: black;"href="BHIM/dth.html">DTH Recharge</a></li>
         </ul>
       </div>
     </div>
@@ -138,20 +153,23 @@
   <section id="gpay">
     <div class="row">
 
-
-      <div class="col-lg-6">
-        <h3>GooglePay Tutorials</h3>
-        <ul>
-          <li>Money transfer using Mobile Number</li>
-          <li>Money transfer using UPI ID</li>
-          <li>Money transfer using Bank Account Details</li>
-          <li>Mobile Recharge</li>
-          <li>Electricity Bill Payment</li>
-          <li>DTH Recharge</li>
-        </ul>
+      <div class="col-lg-6 bhiml" id="gpaymr">
+        <img class="logo" src="images/gpaylogo.png" alt="gpaylogo">
       </div>
 
       <div class="col-lg-6">
+        <h3 style="color: white">GooglePay Tutorials</h3>
+        <ul>
+          <li><a style="color: white;"href="1/indexgooglepaymobile.html">Money transfer using Mobile Number</a></li>
+          <li><a style="color: white;"href="1/indexgpayupi_id.html">Money transfer using UPI ID</a></li>
+          <li><a style="color: white;"href="1/indexgpaybank_account.html">Money transfer using Bank Account Details</a></li>
+          <li><a style="color: white;"href="1/indexmobile_rechargegp.html">Mobile Recharge</a></li>
+          <li><a style="color: white;"href="1/indexgpay_ebill">Electricity Bill Payment</a></li>
+          <li><a style="color: white;"href="1/indexgpay_dth">DTH Recharge</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-6 bhiml" id="gpaycr">
         <img class="logo" src="images/gpaylogo.png" alt="gpaylogo">
       </div>
     </div>
@@ -168,35 +186,55 @@
       <div class="col-lg-6">
         <h3>Paytm Tutorials</h3>
         <ul>
-          <li>Money transfer using Mobile Number</li>
-          <li>Money transfer using UPI ID</li>
-          <li>Money transfer using Bank Account Details</li>
-          <li>Mobile Recharge</li>
-          <li>Electricity Bill Payment</li>
-          <li>DTH Recharge</li>
+          <li style="color: black;"><a style="color: black;"href="Gpay/one.html">Money transfer using Mobile Number</a></li>
+          <li style="color: black;"><a style="color: black;"href="Gpay/two.html">Money transfer using UPI ID</a></li>
+          <li style="color: black;"><a style="color: black;"href="Gpay/three.html">Money transfer using Bank Account Details</a></li>
+          <li style="color: black;"><a style="color: black;"href="Gpay/four.html">Mobile Recharge</a></li>
+          <li style="color: black;"><a style="color: black;"href="Gpay/five.html">Electricity Bill Payment</a></li>
+          <li style="color: black;"><a style="color: black;"href="Gpay/six.html" style="none">DTH Recharge</a></li>
         </ul>
       </div>
 
     </div>
   </section>
 
-  <section id="INQUIRY">
-    <div class="<form class="" action=" index.html" method="post">
 
-      <header>INQUIRY FORM</header>
 
-      <form id="form" class="topBefore">
 
-        <input id="name" type="text" placeholder="NAME">
-        <input id="email" type="text" placeholder="E-MAIL">
-        <textarea id="message" type="text" placeholder="MESSAGE"></textarea>
-        <input id="submit" type="submit" value="GO!">
 
-      </form>
+  <link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet">
+  <div id="section3" class="cf">
+    <a id="contact" class="js--wp-3" name="contact"></a>
+    <div class="row">
+      <div class="form-wrapper">
+        <h1 class="contact-title">Contact</h1>
+        <div class="form-inner-wrapper">
+          <form id="contactForm" method="post" action="http://jessiking.com/js/contact.php" method="post">
+            <div class="field-list clear">
+              <div id="name" class="form-item field email required">
+                <label class="title" for="name">Name <span class="required">*</span></label>
+                <input class="field-element" name="name" x-autocompletetype="name" type="text" spellcheck="false">
+              </div>
 
+              <div id="email" class="form-item field email required">
+                <label class="title" for="email">Email Address <span class="required">*</span></label>
+                <input class="field-element" name="email" x-autocompletetype="email" type="text" id="email-field">
+              </div>
+              <div id="textarea" class="form-item field textarea required">
+                <label class="title" for="textarea-field">Message <span class="required">*</span></label>
+                <textarea class="field-element" id="textarea--field" name="message"></textarea>
+              </div>
+              <div id="contactResponse"></div>
+              <div class="form-button-wrapper form-button-wrapper--align-center">
+                <input class="button" type="submit" name="submit" value="Submit">
+              </div>
+
+            </div>
+          </form>
+        </div>
+      </div>
     </div>
-  </section>
-
+  </div>
 
 
 
@@ -206,3 +244,4 @@
 </body>
 
 </html>
+>
