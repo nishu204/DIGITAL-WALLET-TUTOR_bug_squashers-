@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+    color: black;
+    font-family:Ubuntu;
+    font-size: 80px;
+}
+p{
+    text-align: left;
+    color: black;
+    font-size: 25px;
+}
+body{
+    background-color: cornsilk;
+    overflow-x: hidden;
+}
+h3{
+    text-align:center;
+    color: black;
+    font-size: 30px;
+    
+}
+a{
+    text-align: center;
+    color: black;
+}
+.title-image {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+  
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
