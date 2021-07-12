@@ -205,13 +205,6 @@ img {
   width: auto;
 }
 
- @media screen and (max-width:1024px) {
-   img {
-     width: 100%;
-   }
-
- }
-
  #ppcr {
    position: relative;
    left: 20px;
